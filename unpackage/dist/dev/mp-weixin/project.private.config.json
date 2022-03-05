@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -15,6 +16,13 @@
           "name": "",
           "pathName": "pages/cate/cate",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/goods_list/goods_list",
+          "query": "cid=5",
           "scene": null,
           "launchMode": "default"
         }
