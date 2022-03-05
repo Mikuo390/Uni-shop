@@ -1,5 +1,9 @@
 {
-  "navigationBarTitleText": "",
-  "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "navigationBarTitleText": "搜索结果",
+  "onReachBottomDistance": 150,
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "my-goods": "/components/my-goods/my-goods"
+  }
 }

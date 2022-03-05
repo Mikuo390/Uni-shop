@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "搜索页面",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "uni-search-bar": "/components/uni-search-bar/uni-search-bar",
