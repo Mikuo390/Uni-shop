@@ -1,10 +1,10 @@
 <template>
   <view>
     <view class="goods-list">
-      <block v-for="(item, i) in goodsList" :key="i" @click="gotoDetail(item)">
+      <view  v-for="(item, i) in goodsList" :key="i" @click="gotoDetail(item)">
         <!-- 为 my-goods 组件动态绑定 goods 属性的值 -->
-        <my-goods :goods="item"></my-goods>
-      </block>
+        <my-goods :goods="item" :show-radio="false"></my-goods>
+      </view >
     </view>
   </view>
 </template>
